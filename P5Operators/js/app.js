@@ -1,9 +1,44 @@
+// implement a program that makes an input for km/h and displays the result in m/s
 let speedInput = 72;
 let speedOutput= 0;
 speedOutput = speedInput / 3.6;
 console.log(speedOutput);
 
+//implement a program that takes a number input for minutes and displays the result in seconds.
 let minutesInput= 3;
 let secondOutput = 0;
-minutesInput = secondOutput / ;
+secondOutput = 60 * minutesInput;
 console.log(secondOutput);
+
+//implement a program that takes two numbers as input and displays their division result
+let divisionInput = 11;
+let divisionOutput = 4;
+let divisionResult = 0;
+divisionResult = divisionInput / divisionOutput;
+console.log(divisionResult);
+
+//implement a program that calculates the remainder of dividing two numbers and displays the result
+let minutesInput1 = 11;
+let minutesInput2 = 4;
+divisionResult = minutesInput1 % minutesInput2;
+console.log(divisionResult);
+
+
+let remainderOutput = 0;
+remainderOutput = minutesInput1 % minutesInput2;
+console.log(remainderOutput);
+
+// Implement a program that calculates the area of a circle using a number input for the radius and displays the result
+let radiusInput = 2;
+let radiusOutput = 0;
+let radiusResult = radiusInput / radiusOutput;
+console.log(radiusResult);
+
+
+// Implement a program that takes a number input and displays its negation.
+
+// Implement a program that calculates the BMI of a person using their weight in kilograms and height in meters. Display the BMI value.
+
+// Implement a program that calculates the length of the hypotenuse of a right triangle using the lengths of the other two sides as inputs. Display the result.
+
+// Implement a program that takes a number input representing seconds and converts it to minutes and remaining seconds, then displays the result.
