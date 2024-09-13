@@ -29,16 +29,24 @@ remainderOutput = minutesInput1 % minutesInput2;
 console.log(remainderOutput);
 
 // Implement a program that calculates the area of a circle using a number input for the radius and displays the result
-let radiusInput = 2;
-let radiusOutput = 0;
-let radiusResult = radiusInput / radiusOutput;
-console.log(radiusResult);
-
+const radius = 2;
+const pi = Math.PI;
+const areaOfCircle = radius * radius * pi;
+console.log(areaOfCircle);
 
 // Implement a program that takes a number input and displays its negation.
+let number = 11;
+number = -number;
+console.log(number);
 
 // Implement a program that calculates the BMI of a person using their weight in kilograms and height in meters. Display the BMI value.
+let weightBMI = 70;
+let heightBMI = 1.82;
+BMIResult = weightBMI / (heightBMI * heightBMI);
+console.log(BMIResult);
+
 
 // Implement a program that calculates the length of the hypotenuse of a right triangle using the lengths of the other two sides as inputs. Display the result.
 
 // Implement a program that takes a number input representing seconds and converts it to minutes and remaining seconds, then displays the result.
+// Modulo
