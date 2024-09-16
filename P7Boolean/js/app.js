@@ -21,7 +21,7 @@ console.log(isTeenager);
 console.log(isAdult);
 
 let heightFromGround = 20;
-let playerTouchGround = heightFromGround === 0; // Safecompare
+let playerTouchGround = heightFromGround === 0; // === Safecompare
 let playerHasJetPack = false;
 
 
@@ -41,3 +41,4 @@ else {
   console.log("Player is NOT on the ground!");
   console.log("Player can jump!");
 }
+
