@@ -56,5 +56,7 @@ console.log(hypotenuseresult);
 // Implement a program that takes a number input representing seconds and converts it to minutes and remaining seconds, then displays the result.
 let secondsInput = 111; // Input in seconds
 let minutes = Math.floor(secondsInput / 60); // Convert to minutes
+
 let remainingSeconds = secondsInput % 60; // Get remaining seconds
 console.log(`${minutes} minute(s) and ${remainingSeconds} second(s)`);
+
