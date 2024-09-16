@@ -30,3 +30,10 @@ console.log(--numberOfBottles);
 console.log(--numberOfBottles);
 console.log(--numberOfBottles);
 
+
+let numberOfBottles1 = 10;
+const line11 = " green bottles hanging on the wall. ";
+const line22 = " and if one green bottle, should accidentally fall, there will be. ";
+
+console.log(numberOfBottles1 + line11 + numberOfBottles1 + line11);
+console.log(--numberOfBottles1 + line22 + numberOfBottles1 + line22);
