@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca39412-1358-46f8-ac66-69e5f3938787" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../P5Operators/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../P5Operators/js/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="eca39412-1358-46f8-ac66-69e5f3938787" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lxo3ZpBDRVJij6tRZTYtOW82HA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,6 +26,7 @@
     "Node.js.app.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/natthasudasuksod/Documents/GitHub/JS-Assignment/P4Variables",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726130889883</updated>
       <workItem from="1726130895286" duration="5011000" />
+      <workItem from="1726474330485" duration="760000" />
     </task>
     <servers />
   </component>
