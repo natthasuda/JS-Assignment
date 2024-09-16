@@ -47,6 +47,14 @@ console.log(BMIResult);
 
 
 // Implement a program that calculates the length of the hypotenuse of a right triangle using the lengths of the other two sides as inputs. Display the result.
+let hypoTenuse1 = 3;
+let hypoTenuse2 = 4;
+hypotenuseresult = (((hypoTenuse1 * hypoTenuse1) + (hypoTenuse2 * hypoTenuse2))**(1/2));
+console.log(hypotenuseresult);
+
 
 // Implement a program that takes a number input representing seconds and converts it to minutes and remaining seconds, then displays the result.
-// Modulo
+let secondsInput = 111; // Input in seconds
+let minutes = Math.floor(secondsInput / 60); // Convert to minutes
+let remainingSeconds = secondsInput % 60; // Get remaining seconds
+console.log(`${minutes} minute(s) and ${remainingSeconds} second(s)`);
