@@ -1,11 +1,40 @@
-const textField0 = document.getElementById('#text0');
-textField0.innerHTML = showStylizedScore(786);
+// Document elements
+const textField0 = document.getElementById("text0");
 
-function showScore (inputNumber) {
-  return inputNumber * 100;
+const textField1 = document.getElementById("text1");
+
+const increaseScoreButton = document.getElementById("button0");
+
+// Internal Variables som ökar varje gång spelaren score poäng
+let score = 0;
+
+// Process - what is going to happe in what sequence?
+increaseScoreByOne()
+increaseScoreButton.addEventListener("click", () => {
+  increaseScoreByOne();
+  updateScoreText();
+  checkScoreForSeven();
+});
+
+
+// Controllers
+function increaseScoreByOne(){
+  score++;
 }
 
-function showStylizedScore (scoreInput) {
-  return "Your score is: " + scoreInput * 100;
+function checkScoreForSeven (){
+  if (score >= 7) {
+    // Do something
+    changeScoreTextColortoGreen();
+  }
+}
 
+
+//View
+function updateScoreText () {
+  textField1.innerHTML = "Your score is: " + score;
+}
+
+function changeScoreTextColortoGreen (){
+textField1.style.color = "green";
 }
