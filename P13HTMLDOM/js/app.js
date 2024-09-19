@@ -5,16 +5,16 @@
 // Reference "header5" and assign it to the variable called "headerText5"
 
 const textField0 = document.getElementById("text0");
-textField0.innerHTML= "Nattha";
+textField0.innerHTML= "Nattha vs Computer"; // Istället för att skriva console.log eftersom vi använder HTML
 
 const headerText5 = document.getElementById("header5");
-headerText5.innerHTML= "This is my website"
+headerText5.innerHTML= "Game Rock Paper Scissors" // Istället för att skriva console.log eftersom vi använder HTML
 
 const headerText2 = document.getElementById("header2");
-headerText2.innerHTML= multiplyBySelf(5)
+headerText2.innerHTML= multiplyBySelf(5) // Istället för att skriva console.log eftersom vi använder HTML
 
 const headerText3 = document.getElementById("header3");
-headerText3.innerHTML= getRandomInt().toString();
+headerText3.innerHTML= getRandomInt().toString(); // Istället för att skriva console.log eftersom vi använder HTML
 
 
 
