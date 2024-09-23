@@ -44,3 +44,16 @@ for (let i = 999; i >= 1; i--) {
   " and if one green bottle, should accidentally fall, there will be" + i + " green bottles hanging on the wall. " );
 
 }
+
+// Array
+let studentNames = ["Olivia", "Maria", "Marcus", "James", "Ava", "Jennifer", "Amanda", "Noah", "Sofia", "Zara"];
+// console.log(studentNames[5]); // = Jennifer för att hon är person nr 5.
+console.log("We have " + studentNames.length + " students ");
+
+// studentNames[5] = Sophie (här kan man ersätta namn)
+// studentNames.push("Milla"); (här kan man lägga till namn/produkt)
+
+// You can combine array + forloop
+for (let i = 0; i < studentNames.length; i++) {
+  console.log("Good morning " + studentNames[i] + "!");
+}
